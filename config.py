@@ -13,10 +13,10 @@ APP_ID = int(os.environ.get("APP_ID", "20876060"))
 API_HASH = os.environ.get("API_HASH", "128529002d9337ab5cb5817c4be9100f")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-957766336"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002061150085"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2016390875"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1001155110"))
 
 #Port
 PORT = os.environ.get("PORT", "8585")
@@ -37,7 +37,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/+PZfHvzjSiZc4OGE1") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002232924690"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -66,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(1001155110)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
